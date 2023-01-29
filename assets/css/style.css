@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*  Small classes but not unimportant - do not delete .floats  */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +68,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*benefits section styles as a sidebar alongside the content section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -119,6 +113,12 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+/*controls the styling for the main content of the page - our three buzzphrases*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .search-engine-optimization {
@@ -174,7 +174,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*the fourth fallback for the footer font should always be Arial - fifth on the list, never earlier or later*/
 .footer {
     padding: 30px;
     clear: both;
